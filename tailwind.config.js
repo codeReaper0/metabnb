@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      Inter: ["Inter", "sans-serif"],
+      Rose: ["Red Rose", "cursive"],
     },
   },
   plugins: [],
