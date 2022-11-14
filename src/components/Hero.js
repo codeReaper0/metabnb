@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section className="max-w-[1240px] mx-auto py-10 flex items-center   gap-24 h-max">
+    <section className="max-w-[1240px] mx-auto py-10 flex items-center   gap-24 h-max mb-7">
       <div className="space-y-10 w-[57%]">
         <h1 className="text-[56px]">
           Rent a <span className="font-bold text-[#A02279]">Place</span> away
