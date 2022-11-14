@@ -1,9 +1,9 @@
 import {Link} from "react-router-dom";
 const Header = () => {
   return (
-    <header className="max-w-[1240px] mx-auto py-10 flex justify-between">
+    <header className="max-w-[1240px] mx-auto py-10 flex justify-between items-center">
       <img src="/logo.png" alt="Metabnb" />
-      <nav>
+      <nav className="flex gap-12">
         <Link to="/" className="text-xl text-[#434343]">
           Home
         </Link>
@@ -17,6 +17,13 @@ const Header = () => {
           Community
         </Link>
       </nav>
+      <Link
+        to="/"
+        type="button"
+        className="text-white rounded-[10px] px-6 py-3 connect"
+      >
+        Connect wallet
+      </Link>
     </header>
   );
 };
