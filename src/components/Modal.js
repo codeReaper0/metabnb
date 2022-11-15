@@ -12,7 +12,7 @@ const Modal = () => {
       id="modal"
     >
       <div className="absolute inset-0 w-screen h-screen bg-[#4040404D] z-10" />
-      <div className=" absolute inset -0 flex items-center justify-center w-full h-full z-20">
+      <div className=" absolute inset -0 flex items-center justify-center w-full h-full z-20 px-5 sm:px-0">
         <div className="bg-white rounded-2xl w-[600px]">
           <div className="p-6 flex items-center justify-between">
             <h3 className="font-bold text-2xl text-[#333333]">

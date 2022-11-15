@@ -1,8 +1,8 @@
 const Card = (props) => {
   return (
     <section className="bg-[#1D1D1E]">
-      <div className="max-w-[1240px] mx-auto py-10 px-5 xl:px-0 flex flex-col xl:flex-row gap-6 xl:gap-40">
-        <div className="flex flex-col justify-between gap-9 xl:gap-0 order-2 xl:order-1">
+      <div className="max-w-[1240px] mx-auto py-10 px-5 lg:px-12 xl:px-0 flex flex-col lg:flex-row gap-6 lg:gap-40">
+        <div className="flex flex-col justify-between gap-9 xl:gap-0 order-2 lg:order-1">
           <img src="/logo_footer.png" alt="logo" className="w-40 xl:w-auto" />
 
           <div className="flex gap-8 items-center">
@@ -14,7 +14,7 @@ const Card = (props) => {
           <p className="text-white">&copy; 2022 Metabnb</p>
         </div>
 
-        <div className="grid grid-cols-2 xl:grid-cols-3 gap-8 xl:gap-40 order-1 xl:order-2">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-8 lg:gap-20 xl:gap-40 order-1 lg:order-2">
           <div>
             <h4 className="text-white font-bold mb-6">Community</h4>
             <div className="gap-4 flex flex-col">

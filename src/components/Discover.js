@@ -1,8 +1,8 @@
 const Card = (props) => {
   return (
     <section className="connect">
-      <div className="max-w-[1240px] mx-auto py-10 px-5 xl:px-0 flex flex-col xl:flex-row items-center gap-10 xl:gap-28">
-        <div className="order-2 lg:order-1">
+      <div className="max-w-[1240px] mx-auto py-10 px-5 sm:px-12 xl:px-0 flex flex-col sm:flex-row items-center gap-10 xl:gap-28">
+        <div className="order-2 sm:order-1">
           <h3 className="font-bold text-3xl xl:text-5xl text-white mb-4 xl:mb-9">
             Metabnb NFTs
           </h3>
@@ -15,7 +15,7 @@ const Card = (props) => {
             Learn more
           </button>
         </div>
-        <img src="/nft.png" alt="NFT's" className="order-1 lg:order-2" />
+        <img src="/nft.png" alt="NFT's" className="order-1 sm:order-2 w-1/2" />
       </div>
     </section>
   );
