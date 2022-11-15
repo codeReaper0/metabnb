@@ -1,7 +1,7 @@
 const Card = (props) => {
   return (
     <section className="connect">
-      <div className="max-w-[1240px] mx-auto py-10 flex items-center gap-28">
+      <div className="max-w-[1240px] mx-auto py-10 px-5 xl:px-0 flex flex-col xl:flex-row items-center gap-28">
         <div>
           <h3 className="font-bold text-5xl text-white mb-9">Metabnb NFTs</h3>
           <p className="text-lg text-white mb-9">

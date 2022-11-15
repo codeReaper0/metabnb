@@ -10,9 +10,9 @@ const Header = () => {
     }
   }
   return (
-    <header className="max-w-[1240px] mx-auto py-10 flex justify-between items-center">
-      <img src="/logo.png" alt="Metabnb" />
-      <nav className="flex gap-12">
+    <header className="max-w-[1240px] mx-auto py-10 px-5 xl:px-0 flex justify-between items-center">
+      <img src="/logo.png" alt="Metabnb" className="w-40 lg:w-auto" />
+      <nav className="lg:flex gap-12 hidden">
         <Link to="/" className="text-xl text-[#434343]">
           Home
         </Link>
@@ -27,7 +27,7 @@ const Header = () => {
         </Link>
       </nav>
       <button
-        className="text-white rounded-[10px] px-6 py-3 connect"
+        className="text-white text-sm sm:text-base rounded-[10px] px-6 py-3 connect"
         onClick={displayModal}
       >
         Connect wallet
