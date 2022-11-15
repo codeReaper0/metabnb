@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Banner from "../components/Banner";
 import Adventure from "../components/Adventure";
+import Discover from "../components/Discover";
 
 const Home = () => {
   return (
