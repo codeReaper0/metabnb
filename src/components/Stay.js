@@ -123,7 +123,7 @@ const Stay = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         <Card img="/adv5.png" />
         <Card img="/adv6.png" />
         <Card img="/adv7.png" />
