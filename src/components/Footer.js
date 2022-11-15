@@ -2,7 +2,7 @@ const Card = (props) => {
   return (
     <section className="bg-[#1D1D1E]">
       <div className="max-w-[1240px] mx-auto py-10 flex gap-40">
-        <div>
+        <div className="flex flex-col justify-between">
           <img src="/logo_footer.png" alt="logo" />
 
           <div className="flex gap-8 items-center">
