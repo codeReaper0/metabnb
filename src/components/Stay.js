@@ -1,7 +1,8 @@
+import Card from "./Card";
 const Stay = () => {
   return (
     <section className="max-w-[1240px] mx-auto py-10">
-      <div className="flex">
+      <div className="flex items-center gap-12 mb-16">
         <a href="/" className="text-xl text-[#434343]">
           Resturant
         </a>
@@ -120,6 +121,25 @@ const Stay = () => {
             </svg>
           </div>
         </div>
+      </div>
+
+      <div className="grid grid-cols-4 gap-6">
+        <Card img="/adv5.png" />
+        <Card img="/adv6.png" />
+        <Card img="/adv7.png" />
+        <Card img="/adv8.png" />
+        <Card img="/adv1.png" />
+        <Card img="/adv2.png" />
+        <Card img="/adv3.png" />
+        <Card img="/adv4.png" />
+        <Card img="/hero3.png" />
+        <Card img="/hero4.png" />
+        <Card img="/stay2.png" />
+        <Card img="/stay1.png" />
+        <Card img="/stay3.png" />
+        <Card img="/stay4.png" />
+        <Card img="/stay5.png" />
+        <Card img="/stay6.png" />
       </div>
     </section>
   );
