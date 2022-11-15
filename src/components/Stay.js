@@ -1,30 +1,30 @@
 import Card from "./Card";
 const Stay = () => {
   return (
-    <section className="max-w-[1240px] mx-auto py-10">
-      <div className="flex items-center gap-12 mb-16">
-        <a href="/" className="text-xl text-[#434343]">
+    <section className="max-w-[1240px] mx-auto py-4 xl:py-10 px-5 sm:px-10 xl:px-0">
+      <div className="flex flex-wrap items-center gap-4 xl:gap-12 mb-16">
+        <a href="/" className="text-base xl:text-xl text-[#434343]">
           Resturant
         </a>
-        <a href="/" className="text-xl text-[#434343]">
+        <a href="/" className="text-base xl:text-xl text-[#434343]">
           Cottage
         </a>
-        <a href="/" className="text-xl text-[#434343]">
+        <a href="/" className="text-base xl:text-xl text-[#434343]">
           Castle
         </a>
-        <a href="/" className="text-xl text-[#434343]">
+        <a href="/" className="text-base xl:text-xl text-[#434343]">
           Fantasy city
         </a>
-        <a href="/" className="text-xl text-[#434343]">
+        <a href="/" className="text-base xl:text-xl text-[#434343]">
           Beach
         </a>
-        <a href="/" className="text-xl text-[#434343]">
+        <a href="/" className="text-base xl:text-xl text-[#434343]">
           Carbins
         </a>
-        <a href="/" className="text-xl text-[#434343]">
+        <a href="/" className="text-base xl:text-xl text-[#434343]">
           Off-grid
         </a>
-        <a href="/" className="text-xl text-[#434343]">
+        <a href="/" className="text-base xl:text-xl text-[#434343]">
           Farm
         </a>
 
@@ -123,7 +123,7 @@ const Stay = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6">
         <Card img="/adv5.png" />
         <Card img="/adv6.png" />
         <Card img="/adv7.png" />
