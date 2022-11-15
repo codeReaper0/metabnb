@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
-    <section className="max-w-[1240px] mx-auto py-5 lg:py-10 px-5 xl:px-0 flex flex-col xl:flex-row items-center gap-5 xl:gap-24 h-max mb-7">
-      <div className="space-y-4 lg:space-y-10 xl:w-[57%] order-2 lg:order-1">
+    <section className="max-w-[1240px] mx-auto py-5 lg:py-10 px-5 sm:px-12 xl:px-0 flex flex-col sm:flex-row items-center gap-5 xl:gap-24 h-max mb-7">
+      <div className="space-y-4 lg:space-y-10 sm:w-[57%] order-2 sm:order-1">
         <h1 className="text-4xl lg:text-[56px]">
           Rent a <span className="font-bold text-[#A02279]">Place</span> away
           from <span className="font-bold text-[#A02279]">Home</span> in the
@@ -24,7 +24,7 @@ const Hero = () => {
           </button>
         </div>
       </div>
-      <div className="xl:w-[42%] flex gap-2 xl:h-[450px] order-1 lg:order-2">
+      <div className="sm:w-[42%] flex gap-2 sm:h-[250px] xl:h-[450px] order-1 sm:order-2">
         <div className="flex flex-col gap-2 justify-end">
           <img src="/hero1.png" alt="Hero Images" />
           <img src="/hero2.png" alt="Hero Images" />
