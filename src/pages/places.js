@@ -1,7 +1,7 @@
 import React from "react";
 import "../index.css";
 
-const Contact = () => {
+const Places = () => {
   return (
     <React.Fragment>
       <main className="max-w-3xl mx-auto py-16 px-4 sm:px-10 lg:px-0">
@@ -107,4 +107,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Places;

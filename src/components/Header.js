@@ -16,7 +16,7 @@ const Header = () => {
         <Link to="/" className="text-xl text-[#434343]">
           Home
         </Link>
-        <Link to="/" className="text-xl text-[#434343]">
+        <Link to="/places" className="text-xl text-[#434343]">
           Place to stay
         </Link>
         <Link to="/" className="text-xl text-[#434343]">
