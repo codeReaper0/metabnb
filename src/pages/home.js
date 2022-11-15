@@ -3,7 +3,7 @@ import "../index.css";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Banner from "../components/Banner";
-// import {Link} from "react-router-dom";
+import Adventure from "../components/Adventure";
 
 const Home = () => {
   return (
@@ -11,6 +11,7 @@ const Home = () => {
       <Header />
       <Hero />
       <Banner />
+      <Adventure />
     </React.Fragment>
   );
 };
